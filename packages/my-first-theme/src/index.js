@@ -1,12 +1,6 @@
-const Root = () => {
-  return (
-    <>
-      <h1>Hello Frontity</h1>
-    </>
-  );
-};
+import Root from "./components"
 
-export default {
+const myFirstTheme = {
   name: "my-first-theme",
   roots: {
     theme: Root
@@ -18,3 +12,5 @@ export default {
     theme: {}
   }
 };
+
+export default myFirstTheme
